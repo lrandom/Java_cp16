@@ -3,16 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package session5;
+package session6;
 
 /**
  *
  * @author Lrandom
  */
-public class Human {
-    final String name = "";
-    
-    void setName(String name){
-        
-    }
+public interface EventListener {
+    public void click(); 
 }

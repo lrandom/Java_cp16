@@ -3,16 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package session5;
+package session6;
 
 /**
  *
  * @author Lrandom
  */
-public class Human {
-    final String name = "";
+public interface IChild extends ICar,IRunable{
     
-    void setName(String name){
-        
-    }
 }
